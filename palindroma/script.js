@@ -1,5 +1,3 @@
-//Esercizio parole palindrome
-
 //chiedere all'utente di inserire una parola 
 let word = prompt('Scrivi una parola')
 
@@ -12,13 +10,4 @@ function isPalindrome(word){                                    //dichiaro funzi
     return word === reversed                                    //confronta la prima stringa (word) con la versione invertita (reversed)
 }
 console.log(isPalindrome(word))                                 //stampa il risultato true o false
-
-
-//Esercizio Pari e Dispari
-
-//L'utente sceglie pari o dispari e inserisce un numero da 1 a 5
-let num = Number(prompt('Scegli e scrivi un numero o pari o dispari'))
-
-//Generiamo un numero random(sempre da 1 a 5) per il computer usando una funzione
-
 
